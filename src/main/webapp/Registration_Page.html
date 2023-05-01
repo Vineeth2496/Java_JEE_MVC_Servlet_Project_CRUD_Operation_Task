@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Page</title>
+<link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+</head>
+<style>
+	body{
+		background-image:url("https://th.bing.com/th/id/OIP.mGkX5riEbVJZvdMosNprKAHaEo?pid=ImgDet&rs=1");
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-attachment: fixed;
+
+	}
+   
+    p{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:white;
+        font-size: 150%;
+    }
+</style>
+<body>
+ <center>
+        <br><br>
+        <p>
+            <marquee >Welcome to Registration Page</marquee>
+        </p>
+        <br>
+        <form action="Registration_Action" method="post">
+         	First Name  :     <input type="text" name="fn" placeholder="enter firstname"><br><br>
+            Last Name   :     <input type="text" name="ln" placeholder="enter lastname"><br><br>
+            Mobile No.  :     <input type="text" name="mn" placeholder="9999999999" maxlength="10"><br><br>
+            Gender      :     <input type="radio" name="gender" value="male" id="male">
+            					<label for="male">Male</label>
+                              <input type="radio" name="gender" value="female" id="female">
+                              	<label for="female">Female</label>
+                              <input type="radio" name="gender" value="others" id="others">
+                              	<label for="others">Others</label> <br><br>
+            Languages   :     <input type="checkbox" name="lang" value="Telugu" id="tel">
+            					<label for="tel">Telugu</label>
+                              <input type="checkbox" name="lang" value="Hindi" id="hin">
+                              	<label for="hin">Hindi</label>
+                              <input type="checkbox" name="lang" value="English" id="eng"> 
+                              	<label for="eng">English</label><br><br>
+            E-mail      :     <input type="email" name="email" placeholder="example@example.com"><br><br>
+            Username    :     <input type="text" name="un" placeholder="enter username"><br><br>
+            Password    :     <input type="password" name="pw" placeholder="*************"><br><br>
+       confirm Password :     <input type="password" name="cpw" placeholder="enter same password"><br><br>
+       <input type="submit">
+       <input type="reset" value="Clear">
+        </form>
+        <br>
+    </center>
+</body>
+</html>
